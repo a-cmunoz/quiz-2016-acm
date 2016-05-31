@@ -9,10 +9,10 @@
     <h2>Quiz: el juego de las preguntas</h2>
 
     <p>
-	La respuesta es <%= result %>.
+	La respuesta <strong> <%= answer %> </strong>es <%= result %>.
     </p>
     <p>
-	<a href="question"> Intentar de nuevo </a>
+	<a href="question?answer=<%= answer %>"> Intentar de nuevo </a>
     </p>
 	
   </body>
